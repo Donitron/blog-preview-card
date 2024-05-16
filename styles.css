@@ -29,6 +29,12 @@ body {
   max-width: 24rem;
   min-width: 14rem;
   box-shadow: 8px 8px hsl(0, 0%, 7%);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translate(-8px, -8px);
+  box-shadow: 16px 16px hsl(0, 0%, 7%);
 }
 
 .wrapper {
@@ -68,6 +74,11 @@ h1 {
   font-size: 1.25rem;
   margin: 0;
   font-weight: 800;
+}
+
+h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
 }
 
 p {
